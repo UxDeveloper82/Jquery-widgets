@@ -1,0 +1,28 @@
+
+div{
+    display: flex;
+    width: 300px;
+    text-align: center;
+}
+
+#title,
+#handle,
+#footer{
+    flex-direction: row;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+#handle {
+    display: inline-block;
+    width: 20px;
+    background-color: black;
+    cursor: pointer;
+}
+
+#footer{
+    font-size: 10px;
+    background-color: black;
+    margin-top: -5px;
+}
